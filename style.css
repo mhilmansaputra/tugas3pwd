@@ -1,9 +1,4 @@
-/* ========================================
-   MYWORLD — PREMIUM EDITORIAL DESIGN
-   HTML5 + CSS3 | TANPA JAVASCRIPT
-======================================== */
 
-/* 1. DESIGN TOKENS */
 
 :root {
     --forest: #203e32;
@@ -24,7 +19,7 @@
     --shadow: 0 12px 36px rgba(32, 62, 50, 0.06);
 }
 
-/* 2. RESET */
+
 
 * {
     margin: 0;
@@ -69,9 +64,7 @@ a:focus-visible {
     background: var(--forest);
 }
 
-/* ========================================
-   3. BACKGROUND SETIAP HALAMAN
-======================================== */
+
 
 .home-page {
     background: #f1ede4;
@@ -85,9 +78,7 @@ a:focus-visible {
     background: #eee8df;
 }
 
-/* ========================================
-   4. HEADER
-======================================== */
+
 
 .site-header {
     min-height: 330px;
@@ -188,7 +179,7 @@ a:focus-visible {
     text-align: center;
 }
 
-/* Variasi header halaman */
+
 
 .profile-page .site-header {
     background-color: #354b40;
@@ -212,9 +203,7 @@ a:focus-visible {
         linear-gradient(120deg, #55483d, #302b26);
 }
 
-/* ========================================
-   5. BUTTONS
-======================================== */
+
 
 .button {
     display: inline-flex;
@@ -261,9 +250,7 @@ a:focus-visible {
     width: 100%;
 }
 
-/* ========================================
-   6. NAVBAR — FLEXBOX
-======================================== */
+
 
 .navbar {
     position: relative;
@@ -350,9 +337,7 @@ a:focus-visible {
     color: var(--white);
 }
 
-/* ========================================
-   7. SECTION — GRID DUA KOLOM
-======================================== */
+
 
 .content-layout {
     width: min(1100px, 84%);
@@ -440,9 +425,7 @@ a:focus-visible {
     margin-top: 8px;
 }
 
-/* ========================================
-   8. FEATURED IMAGE
-======================================== */
+
 
 .featured-image {
     margin: 28px 0 35px;
@@ -471,9 +454,7 @@ a:focus-visible {
     letter-spacing: 1.2px;
 }
 
-/* ========================================
-   9. INTEREST CARDS
-======================================== */
+
 
 .interest-grid {
     display: grid;
@@ -519,9 +500,7 @@ a:focus-visible {
     line-height: 1.8;
 }
 
-/* ========================================
-   10. ARTICLE BOTTOM
-======================================== */
+
 
 .article-bottom {
     margin-top: 35px;
@@ -552,9 +531,6 @@ a:focus-visible {
     color: var(--terracotta);
 }
 
-/* ========================================
-   11. ASIDE / SIDEBAR
-======================================== */
 
 .sidebar {
     display: grid;
@@ -684,8 +660,7 @@ a:focus-visible {
     letter-spacing: 1.5px;
 }
 
-/* ========================================
-   12. DATA DIRI
+
 ======================================== */
 
 .profile-cover {
@@ -905,9 +880,6 @@ a:focus-visible {
     color: var(--terracotta);
 }
 
-/* ========================================
-   13. GALERI
-======================================== */
 
 .gallery-heading {
     display: flex;
@@ -1021,7 +993,7 @@ a:focus-visible {
     transform: translate(3px, -3px);
 }
 
-/* LIGHTBOX CSS TANPA JAVASCRIPT */
+
 
 .lightbox {
     position: fixed;
@@ -1129,9 +1101,7 @@ a:focus-visible {
     color: #e4b994;
 }
 
-/* ========================================
-   15. RESPONSIVE — TABLET
-======================================== */
+
 
 @media (max-width: 1000px) {
     .navbar {
@@ -1298,9 +1268,7 @@ a:focus-visible {
     }
 }
 
-/* ========================================
-   17. RESPONSIVE — SMALL PHONE
-======================================== */
+
 
 @media (max-width: 430px) {
     .site-header {
@@ -1434,9 +1402,7 @@ a:focus-visible {
     }
 }
 
-/* ========================================
-   18. REDUCE MOTION
-======================================== */
+
 
 @media (prefers-reduced-motion: reduce) {
     *,
@@ -1448,7 +1414,7 @@ a:focus-visible {
         transition-duration: 0.01ms !important;
     }
 }
-/* LOGO INTERAKTIF */
+
 .logo-brand {
     display: inline-flex;
     align-items: center;
